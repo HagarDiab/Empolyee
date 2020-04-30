@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import User_Empolyee
+@testable import Empolyee
 
 class EmpolyeeTests: XCTestCase {
 

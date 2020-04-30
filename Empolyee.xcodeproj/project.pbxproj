@@ -14,6 +14,9 @@
 		0BF44E67245AD26B00945633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF44E66245AD26B00945633 /* Assets.xcassets */; };
 		0BF44E6A245AD26B00945633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF44E68245AD26B00945633 /* LaunchScreen.storyboard */; };
 		0BF44E75245AD26B00945633 /* EmpolyeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF44E74245AD26B00945633 /* EmpolyeeTests.swift */; };
+		0BF44E82245AD46600945633 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF44E81245AD46600945633 /* User.swift */; };
+		0BF44E84245AD49800945633 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF44E83245AD49800945633 /* Employee.swift */; };
+		0BF44E88245AD74300945633 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF44E87245AD74300945633 /* UserTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		0BF44E70245AD26B00945633 /* EmpolyeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmpolyeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF44E74245AD26B00945633 /* EmpolyeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpolyeeTests.swift; sourceTree = "<group>"; };
 		0BF44E76245AD26B00945633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BF44E81245AD46600945633 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0BF44E83245AD49800945633 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		0BF44E87245AD74300945633 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,8 @@
 				0BF44E66245AD26B00945633 /* Assets.xcassets */,
 				0BF44E68245AD26B00945633 /* LaunchScreen.storyboard */,
 				0BF44E6B245AD26B00945633 /* Info.plist */,
+				0BF44E81245AD46600945633 /* User.swift */,
+				0BF44E83245AD49800945633 /* Employee.swift */,
 			);
 			path = Empolyee;
 			sourceTree = "<group>";
@@ -95,6 +103,7 @@
 			children = (
 				0BF44E74245AD26B00945633 /* EmpolyeeTests.swift */,
 				0BF44E76245AD26B00945633 /* Info.plist */,
+				0BF44E87245AD74300945633 /* UserTests.swift */,
 			);
 			path = EmpolyeeTests;
 			sourceTree = "<group>";
@@ -202,6 +211,8 @@
 			files = (
 				0BF44E62245AD25A00945633 /* ViewController.swift in Sources */,
 				0BF44E5E245AD25A00945633 /* AppDelegate.swift in Sources */,
+				0BF44E82245AD46600945633 /* User.swift in Sources */,
+				0BF44E84245AD49800945633 /* Employee.swift in Sources */,
 				0BF44E60245AD25A00945633 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BF44E88245AD74300945633 /* UserTests.swift in Sources */,
 				0BF44E75245AD26B00945633 /* EmpolyeeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
