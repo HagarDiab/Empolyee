@@ -22,6 +22,7 @@ class Employee {
     init(name : String) {
         self.name = name
     }
+    
     func calcNetSalary(){
         
         guard let gross = grossSalary else{

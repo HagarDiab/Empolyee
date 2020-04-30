@@ -28,22 +28,38 @@ class UserTests: XCTestCase {
     }
     
     func testAuthnticate(){
-        if(!user1.authenticat()){
-            XCTFail()
-        }
-//
-        if(!user2.authenticat()){
-            XCTFail()
-        }
-//
+//        if(!user1.authenticat()){
+//            XCTFail()
+//        }
+////
+//        if(!user2.authenticat()){
+//            XCTFail()
+//        }
+////
+        
         XCTAssertNotNil(user1)
         XCTAssertNotNil(user2)
-        XCTAssertNotEqual(user1.username, user2.username)
-        XCTAssertTrue(user2.authenticat())
-        XCTAssertFalse(user1.authenticat())
+        
+        if(user1 != nil ){
+            XCTAssertFalse(user1.authenticat())
+            XCTAssertFalse(user1.username.count < 3) //< 5
+            XCTAssertEqual(user1.password.count, 10)
+        }else{
+            XCTFail()
+        }
+        
+        if(user2 != nil ){
+            XCTAssertFalse(user2.authenticat())
+            XCTAssertFalse(user2.username.count < 3) //< 5
+            XCTAssertEqual(user2.password.count, 10)
+        }else{
+            XCTFail()
+        }
         
         
-        
+        if(user1 != nil && user2 != nil){
+            XCTAssertNotEqual(user1.username, user2.username)
+        }
         
     }
 
